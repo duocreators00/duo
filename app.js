@@ -28,6 +28,10 @@ function createNote() {
     note.remove();
   }, 4000);
 }
+document.getElementById('play-music').addEventListener('click', function() {
+  document.getElementById('bg-music').play();
+});
 
 // Generate notes every 800ms
+
 setInterval(createNote, 800);
