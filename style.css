@@ -186,5 +186,21 @@ body, html {
     opacity: 0;
   }
 }
+#play-music {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(236, 72, 153, 0.4);
+  transition: background 0.3s ease;
+}
+
+
 
 
